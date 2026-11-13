@@ -24,5 +24,5 @@ does not blanket-ignore `results/`, `.npz` or `.pt`. Fresh outputs belong under
 
 The preparation audit records what was checked. The checksum inventory detects
 changes to the supplied selection; it is not a signed authenticity guarantee.
-Publication target: https://github.com/jogecodes/chaos-library.
-This scientific selection has a fresh local Git history; remote creation and upload require an authenticated GitHub connection.
+Public repository: https://github.com/jogecodes/chaos-library.
+The scientific selection preserves the repository’s initial MIT license commit and both original copyright notices.

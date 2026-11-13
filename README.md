@@ -1,6 +1,6 @@
 # Chaos Library
 
-Publication target: [jogecodes/chaos-library](https://github.com/jogecodes/chaos-library).
+Repository: [jogecodes/chaos-library](https://github.com/jogecodes/chaos-library).
 
 Reproducible numerical experiments in deterministic chaos and forecasting by
 Jorge Casajús-Setién ([jogecodes](https://github.com/jogecodes)).

@@ -10,8 +10,8 @@
       "origin": "research",
       "sourcePath": "LICENSE",
       "sourceSha256": "8a2164c776755bce13b70601dbba3741adc4cd418ada4378743818a7de8863a2",
-      "publishedSha256": "8a2164c776755bce13b70601dbba3741adc4cd418ada4378743818a7de8863a2",
-      "adaptedForPublication": false
+      "publishedSha256": "5251aa0aa4319d8b1ee26e9c7c6b210d102b7805dbb37ea1b442a0496df15190",
+      "adaptedForPublication": true
     },
     {
       "path": "chaos-forecasting-ai/README.md",

@@ -1,6 +1,6 @@
 {
   "prepared": "2026-11-13",
-  "state": "Scientific library verified; remote creation and upload pending GitHub authentication.",
+  "state": "Scientific library verified for publication in the existing public GitHub repository.",
   "scope": "Original numerical experiments only; no application or presentation exports.",
   "originalNumericalBinariesPreserved": 133,
   "originalNumericalBinaryHashesUnchanged": true,
@@ -19,5 +19,5 @@
     "standalonePhysicalTraining": "CPU MLP, Transformer and GRU fit tests plus end-to-end polynomial experiment and scientific artifact/source saving.",
     "scopeCheck": "No presentation application, compact playback arrays, exporters, manifests, hosting configuration or UI tests."
   },
-  "publicationTarget": "https://github.com/jogecodes/chaos-library"
+  "repository": "https://github.com/jogecodes/chaos-library"
 }
