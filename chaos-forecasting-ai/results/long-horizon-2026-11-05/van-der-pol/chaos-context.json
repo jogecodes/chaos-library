@@ -1,0 +1,9 @@
+{
+  "forcing_period": 3.7399912542735634,
+  "accuracy_display_units": 27.0,
+  "accuracy_display_forcing_cycles": 7.219268218648373,
+  "additional_comparison_display_units": 40.0,
+  "truth_horizon_units": 200.0,
+  "fixed_phase_samples": 53,
+  "note": "Same forecasts and dynamics; longer display only."
+}

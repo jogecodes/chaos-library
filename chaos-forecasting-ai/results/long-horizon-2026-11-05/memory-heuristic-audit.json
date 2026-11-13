@@ -1,0 +1,23 @@
+{
+  "van-der-pol": {
+    "forecasts_and_local_error_arrays_unchanged": true,
+    "local_metrics_unchanged": true,
+    "memory_estimate_checked_with_fft_acf": true,
+    "origin_cases_checked": 36,
+    "memory_time": 0.75
+  },
+  "lorenz": {
+    "forecasts_and_local_error_arrays_unchanged": true,
+    "local_metrics_unchanged": true,
+    "memory_estimate_checked_with_fft_acf": true,
+    "origin_cases_checked": 36,
+    "memory_time": 0.21
+  },
+  "rossler": {
+    "forecasts_and_local_error_arrays_unchanged": true,
+    "local_metrics_unchanged": true,
+    "memory_estimate_checked_with_fft_acf": true,
+    "origin_cases_checked": 36,
+    "memory_time": 1.1
+  }
+}

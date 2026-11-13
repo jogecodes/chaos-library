@@ -1,0 +1,5 @@
+{
+  "van-der-pol": "All local-error curves and sustained onset markers independently reproduced; curve absolute tolerance 1e-7",
+  "lorenz": "All local-error curves and sustained onset markers independently reproduced; curve absolute tolerance 1e-7",
+  "rossler": "All local-error curves and sustained onset markers independently reproduced; curve absolute tolerance 1e-7"
+}

@@ -1,0 +1,75 @@
+{
+  "version": 3,
+  "threshold": 0.5,
+  "window_steps": 2,
+  "persistence_steps": 2,
+  "window_time": 0.1,
+  "confirmation_delay_time": 0.05,
+  "validation_acf_095_median_lags_by_state": [
+    5.0,
+    2.0
+  ],
+  "window_selection": "Fastest validation variable median first ACF<0.95 lag",
+  "threshold_selection": "Accuracy budget: 0.5 training std; not fitted to test",
+  "startup": "Partial trailing windows until a full window is available",
+  "marker": "Onset of the first confirmed sustained run",
+  "joint_state": "Earliest confirmed physical-variable loss",
+  "forecast": "Ensemble mean; individual member coherence is also reported",
+  "dt": 0.05,
+  "derivative_window_steps": 5,
+  "derivative_scales_by_state": [
+    [
+      1.9991298744502406,
+      6.179707486110573
+    ],
+    [
+      7.611049723372874,
+      46.727492167397536
+    ]
+  ],
+  "derivative_scale_floor": 1e-12,
+  "features": [
+    "value",
+    "slope",
+    "curvature"
+  ],
+  "derivative_estimator": "Trailing quadratic endpoint derivatives",
+  "combination": "Max RMS; all three features must pass",
+  "reference_context": "Same observed past for truth and forecast",
+  "episode_policy": {
+    "version": 2,
+    "dt": 0.05,
+    "local_error_threshold": 0.5,
+    "window_steps": 75,
+    "window_time": 3.75,
+    "bad_fraction": 0.8,
+    "max_good_gap_steps": 15,
+    "time_scale_source": "Median validation first ACF<1/e crossing",
+    "memory_steps": 15.0,
+    "memory_time": 0.75,
+    "acf_1e_crossing_steps_by_trajectory_state": [
+      [
+        20,
+        11
+      ],
+      [
+        19,
+        11
+      ],
+      [
+        21,
+        11
+      ],
+      [
+        20,
+        11
+      ]
+    ],
+    "confirmation_memory_multiplier": 5.0,
+    "recovery_memory_multiplier": 1.0,
+    "joint_rule": "Any physical variable fails value, slope or curvature",
+    "confirmation_delay_time": 3.7,
+    "interpretation": "Retrospective onset requires a complete following window. Recovery remains possible.",
+    "development_scope": "Shared multiplier calibrated on four annotated model cases of one Van der Pol trajectory; autonomous systems have no visual labels."
+  }
+}

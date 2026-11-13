@@ -1,0 +1,17 @@
+{
+  "van-der-pol": {
+    "original_arrays_unchanged": true,
+    "original_metrics_unchanged": true,
+    "independently_checked_origin_cases": 36
+  },
+  "lorenz": {
+    "original_arrays_unchanged": true,
+    "original_metrics_unchanged": true,
+    "independently_checked_origin_cases": 36
+  },
+  "rossler": {
+    "original_arrays_unchanged": true,
+    "original_metrics_unchanged": true,
+    "independently_checked_origin_cases": 36
+  }
+}

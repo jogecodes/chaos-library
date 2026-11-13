@@ -1,0 +1,5 @@
+{
+  "seed": 23,
+  "source": "chaos-forecasting-ai/results/data-scaling-2026-11-05/checkpoints/transformer-32-23.pt",
+  "note": "Previously selected 32-trajectory checkpoint."
+}

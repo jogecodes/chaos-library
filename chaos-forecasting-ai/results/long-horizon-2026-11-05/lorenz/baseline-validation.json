@@ -1,0 +1,31 @@
+{
+  "ridge": [
+    {
+      "regularization": 1e-06,
+      "validation_normalized_mse": 0.7159852022106823
+    },
+    {
+      "regularization": 0.0001,
+      "validation_normalized_mse": 0.7259519483611674
+    },
+    {
+      "regularization": 0.01,
+      "validation_normalized_mse": 0.7412738597371523
+    },
+    {
+      "regularization": 1,
+      "validation_normalized_mse": 0.7446524049124094
+    }
+  ],
+  "polynomial": [
+    {
+      "degree": 2,
+      "validation_normalized_mse": 3.842470597935013e-07
+    },
+    {
+      "degree": 3,
+      "validation_normalized_mse": 3.1181637415491563e-07
+    }
+  ],
+  "polynomial_degree": 3
+}

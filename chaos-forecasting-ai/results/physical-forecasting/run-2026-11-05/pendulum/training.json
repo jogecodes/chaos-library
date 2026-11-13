@@ -1,0 +1,46 @@
+{
+  "history": [
+    {
+      "update": 400,
+      "trainingLoss": 0.0007488742703571916,
+      "validationNrmse": 6.216996669769287
+    },
+    {
+      "update": 800,
+      "trainingLoss": 0.00035167636815458536,
+      "validationNrmse": 4.185178756713867
+    },
+    {
+      "update": 1200,
+      "trainingLoss": 0.00020165886962786317,
+      "validationNrmse": 1.797984004020691
+    },
+    {
+      "update": 1600,
+      "trainingLoss": 9.968350786948577e-05,
+      "validationNrmse": 0.5139867067337036
+    },
+    {
+      "update": 2000,
+      "trainingLoss": 0.00010738204582594335,
+      "validationNrmse": 0.5459659099578857
+    },
+    {
+      "update": 2400,
+      "trainingLoss": 5.353868255042471e-05,
+      "validationNrmse": 0.45028361678123474
+    },
+    {
+      "update": 2800,
+      "trainingLoss": 8.79242506925948e-05,
+      "validationNrmse": 0.34291717410087585
+    },
+    {
+      "update": 3200,
+      "trainingLoss": 5.234700802247971e-05,
+      "validationNrmse": 0.2892001271247864
+    }
+  ],
+  "selectedValidationNrmse": 0.2892001271247864,
+  "selection": "lowest validation 180-step rollout NRMSE; no test selection"
+}

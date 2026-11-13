@@ -1,0 +1,31 @@
+{
+  "equationComparisons": 200,
+  "checkpointReplay": {
+    "pendulum": {
+      "steps": 10,
+      "testRuns": 3,
+      "maxAbsoluteCpuGpuDifference": 9.5367431640625e-07
+    },
+    "waterwheel": {
+      "steps": 10,
+      "testRuns": 3,
+      "maxAbsoluteCpuGpuDifference": 4.76837158203125e-07
+    }
+  },
+  "splitAudit": {
+    "pendulum": {
+      "uniqueInitialStates": 39,
+      "train": 32,
+      "validation": 4,
+      "test": 3,
+      "overlap": 0
+    },
+    "waterwheel": {
+      "uniqueInitialStates": 39,
+      "train": 32,
+      "validation": 4,
+      "test": 3,
+      "overlap": 0
+    }
+  }
+}

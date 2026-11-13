@@ -1,0 +1,60 @@
+{
+  "label": "GRU",
+  "seed": 7,
+  "updates": 3200,
+  "selectedUpdate": 1200,
+  "window": 24,
+  "validationNrmse": 0.19164565541980325,
+  "history": [
+    {
+      "update": 400,
+      "trainingLoss": 0.000589564093388617,
+      "validationNrmse": 0.7200886992855474
+    },
+    {
+      "update": 800,
+      "trainingLoss": 0.00014481240941677243,
+      "validationNrmse": 0.5361906555089474
+    },
+    {
+      "update": 1200,
+      "trainingLoss": 0.00010925149399554357,
+      "validationNrmse": 0.19164565541980325
+    },
+    {
+      "update": 1600,
+      "trainingLoss": 3.216127515770495e-05,
+      "validationNrmse": 0.5444013731974994
+    },
+    {
+      "update": 2000,
+      "trainingLoss": 3.950333848479204e-05,
+      "validationNrmse": 0.520173248543318
+    },
+    {
+      "update": 2400,
+      "trainingLoss": 1.8918821297120303e-05,
+      "validationNrmse": 0.7495021951335806
+    },
+    {
+      "update": 2800,
+      "trainingLoss": 2.7404996217228472e-05,
+      "validationNrmse": 0.6202220930112002
+    },
+    {
+      "update": 3200,
+      "trainingLoss": 1.2962933396920562e-05,
+      "validationNrmse": 0.7105395383574532
+    }
+  ],
+  "method": "Two GRU layers of 64 units. Reads 24 states with sine/cosine angles; predicts full-state increments; four-step recursive loss; AdamW, batch 256; checkpoint selected on separate 180-step validation forecasts.",
+  "sourceHashes": {
+    "data.npz": "1d7bb0e1192a7c9f5b6cd6cdd6e0f5a7b7f30f2fa8cffa636af6048b0336b694",
+    "initials.json": "82e2a13bfdbb24843f191e815194a7103492495731f69348d8377ddeffdecd94",
+    "contexts.npz": "4bdeb03d38a7c8bc2793f6cfc33131a6aa9b4ee7bb1060f2f82e907ccfa53097"
+  },
+  "artifactHashes": {
+    "model.pt": "7475ecad0b01c44acbe26a10ee6de5d29758dadf42e6f9454436de31a13eaa87",
+    "forecast.npz": "da725f6568c80772547d55e17403635b9220d03cdf3a66ff5df219813d92863e"
+  }
+}

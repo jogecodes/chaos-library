@@ -1,0 +1,12 @@
+{
+  "transformer_training_loss": 0.09090826660394669,
+  "transformer_position_rmse": 2.2512564287682837,
+  "pinn_training_loss": 2.197338581085205,
+  "device": "cuda",
+  "device_name": "NVIDIA L4",
+  "torch_version": "2.6.0+cu124",
+  "transformer_epochs": 35,
+  "pinn_epochs": 800,
+  "horizon": 180,
+  "forecast_start_index": 2024
+}

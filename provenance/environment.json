@@ -1,0 +1,13 @@
+{
+  "prepared": "2026-11-13",
+  "python": "3.10.12",
+  "packages": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "torch": "2.6.0+cu124",
+    "matplotlib": "3.10.3",
+    "pytest": "8.4.1"
+  },
+  "cudaAvailableForValidation": true,
+  "note": "Records preparation/validation environment, not a cross-platform installation lock."
+}

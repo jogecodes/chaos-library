@@ -1,0 +1,28 @@
+{
+  "method": "flow_lyapunov: physical tangent-vector renormalization at fixed forcing phase",
+  "parameters": {
+    "mu": 3.0,
+    "amplitude": 4.4,
+    "forcing_frequency": 1.68
+  },
+  "initial_state": [
+    0.1,
+    0.0
+  ],
+  "renormalization_dt": 0.1,
+  "discard_time": 25.0,
+  "integration_rtol": 1e-07,
+  "integration_atol": 1e-09,
+  "jacobian_step": 1e-06,
+  "finite_time_estimates": [
+    {
+      "duration": 100.0,
+      "exponent_per_time_unit": 0.1726102792607054
+    },
+    {
+      "duration": 200.0,
+      "exponent_per_time_unit": 0.1820212759639425
+    }
+  ],
+  "interpretation": "Positive finite-time conditional exponents support sensitive dependence. Finite estimates depend on observation window and numerical settings."
+}

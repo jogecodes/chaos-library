@@ -1,0 +1,29 @@
+{
+  "trajectory_counts": {
+    "train": 32,
+    "validation": 4,
+    "test": 4,
+    "reference": 1
+  },
+  "minimum_initial_condition_distance": {
+    "train/validation": 0.3221779324334765,
+    "train/test": 0.09889499844383125,
+    "train/reference": 0.3779705108519182,
+    "validation/test": 0.4039884153234748,
+    "validation/reference": 1.0625005583529823,
+    "test/reference": 1.4035702051663004
+  },
+  "initial_conditions_disjoint": true,
+  "limitation": "Disjoint ICs do not imply independent windows or new dynamics.",
+  "exact_state_overlap_counts": {
+    "train/validation": 0,
+    "train/test": 0,
+    "train/reference": 0,
+    "validation/test": 0,
+    "validation/reference": 0,
+    "test/reference": 0
+  },
+  "scope": "Same equations/parameters; held-out initial conditions.",
+  "test_sampling": "Two overlapping origins/test IC plus a reference; nine dependent origins.",
+  "test_reuse": "Holdouts inspected in previous experiments; not an untouched final evaluation."
+}

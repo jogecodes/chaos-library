@@ -1,0 +1,66 @@
+{
+  "systems": {
+    "van-der-pol": {
+      "initial_condition_groups_disjoint": true,
+      "training_samples": 64032,
+      "neural_checkpoints_prefix_replayed": 9,
+      "forecast_families": 6,
+      "full_horizon_metrics_and_arrays": "reproduced",
+      "forecast_horizon_steps": 4000,
+      "forecast_horizon_time": 200,
+      "plots_checked": 6,
+      "numerical_failure_fraction_by_model": {
+        "Persistence": 0.0,
+        "Ridge": 0.0,
+        "Polynomial dynamics": 0.0,
+        "Transformer": 0.0,
+        "GRU": 0.0,
+        "MLP": 0.0
+      },
+      "checkpoint_prefix_steps": 180,
+      "additional_state_projection_plot_checked": true
+    },
+    "lorenz": {
+      "initial_condition_groups_disjoint": true,
+      "training_samples": 64032,
+      "neural_checkpoints_prefix_replayed": 9,
+      "forecast_families": 6,
+      "full_horizon_metrics_and_arrays": "reproduced",
+      "forecast_horizon_steps": 5000,
+      "forecast_horizon_time": 50,
+      "plots_checked": 6,
+      "numerical_failure_fraction_by_model": {
+        "Persistence": 0.0,
+        "Ridge": 0.0,
+        "Polynomial dynamics": 0.0,
+        "Transformer": 0.0,
+        "GRU": 0.0,
+        "MLP": 0.0
+      },
+      "checkpoint_prefix_steps": 180,
+      "additional_state_projection_plot_checked": true
+    },
+    "rossler": {
+      "initial_condition_groups_disjoint": true,
+      "training_samples": 64032,
+      "neural_checkpoints_prefix_replayed": 9,
+      "forecast_families": 6,
+      "full_horizon_metrics_and_arrays": "reproduced",
+      "forecast_horizon_steps": 4000,
+      "forecast_horizon_time": 200,
+      "plots_checked": 6,
+      "numerical_failure_fraction_by_model": {
+        "Persistence": 0.0,
+        "Ridge": 0.0,
+        "Polynomial dynamics": 0.0,
+        "Transformer": 0.0,
+        "GRU": 0.0,
+        "MLP": 0.0
+      },
+      "checkpoint_prefix_steps": 180,
+      "additional_state_projection_plot_checked": true
+    }
+  },
+  "tests_passed": 49,
+  "ruff": "passed"
+}

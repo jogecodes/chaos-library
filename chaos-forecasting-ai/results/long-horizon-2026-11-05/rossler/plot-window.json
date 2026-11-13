@@ -1,0 +1,11 @@
+{
+  "mode": "coherence",
+  "maximum_time": 199.0,
+  "reference_origin_index": 0,
+  "longest_reference_coherence": 99.05000000000001,
+  "padding_fraction": 1.0,
+  "minimum_post_breakdown_confirmation_windows": 4,
+  "window_rule": "Longest reference episode onset plus at least its own duration; all systems get at least four confirmation windows after it. Rounded up and clipped to saved forecast horizon.",
+  "available_horizon": 200.0,
+  "shared_across": "Time-series model panels and physical variables"
+}

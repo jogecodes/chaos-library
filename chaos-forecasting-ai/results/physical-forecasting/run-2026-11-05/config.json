@@ -1,0 +1,13 @@
+{
+  "updates": 3200,
+  "seed": 7,
+  "device": "cuda",
+  "systems": [
+    "pendulum",
+    "waterwheel"
+  ],
+  "trainingDuration": 24,
+  "train": 32,
+  "validation": 4,
+  "test": 3
+}

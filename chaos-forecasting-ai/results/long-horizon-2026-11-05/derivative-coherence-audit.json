@@ -1,0 +1,32 @@
+{
+  "van-der-pol": {
+    "all_feature_combinations_and_masks_verified": true,
+    "independent_polyfit_check_leads": [
+      1,
+      51,
+      122,
+      4000
+    ],
+    "tolerance": 1e-07
+  },
+  "lorenz": {
+    "all_feature_combinations_and_masks_verified": true,
+    "independent_polyfit_check_leads": [
+      1,
+      51,
+      122,
+      5000
+    ],
+    "tolerance": 1e-07
+  },
+  "rossler": {
+    "all_feature_combinations_and_masks_verified": true,
+    "independent_polyfit_check_leads": [
+      1,
+      51,
+      122,
+      4000
+    ],
+    "tolerance": 1e-07
+  }
+}

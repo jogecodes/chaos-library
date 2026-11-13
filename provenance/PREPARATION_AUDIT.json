@@ -1,0 +1,23 @@
+{
+  "prepared": "2026-11-13",
+  "state": "Scientific library verified; remote creation and upload pending GitHub authentication.",
+  "scope": "Original numerical experiments only; no application or presentation exports.",
+  "originalNumericalBinariesPreserved": 133,
+  "originalNumericalBinaryHashesUnchanged": true,
+  "sourceCommits": {
+    "research": "71cf96bd31218f7f49f229c3bc9fefa2f984901a",
+    "physicalExperimentSource": "e8354f437326e4403cedd5145fe2a62d36a9a7ea"
+  },
+  "largestFile": {
+    "path": "chaos-forecasting-ai/results/physical-forecasting/comparison-2026-11-12/waterwheel/data.npz",
+    "bytes": 8836555
+  },
+  "verification": {
+    "pytestPassed": 81,
+    "originalLaboratoryForecastOrigins": 108,
+    "physicalForecastRuns": 24,
+    "standalonePhysicalTraining": "CPU MLP, Transformer and GRU fit tests plus end-to-end polynomial experiment and scientific artifact/source saving.",
+    "scopeCheck": "No presentation application, compact playback arrays, exporters, manifests, hosting configuration or UI tests."
+  },
+  "publicationTarget": "https://github.com/jogecodes/chaos-library"
+}

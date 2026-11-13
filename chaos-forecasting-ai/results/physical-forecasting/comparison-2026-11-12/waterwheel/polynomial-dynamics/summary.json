@@ -1,0 +1,16 @@
+{
+  "label": "Polynomial dynamics",
+  "degree": 2,
+  "window": 1,
+  "validationNrmse": null,
+  "method": "Quadratic polynomial derivatives fitted by least squares (rcond 1e-8) on training trajectories, using sine/cosine angles and standardized state features. Fourth-order finite-difference training targets; RK4 integration with four substeps per sample. Degree fixed before test evaluation; no physical equation coefficients supplied.",
+  "sourceHashes": {
+    "data.npz": "4723553c563fdfa0a70efdb85b43d7024a475d7543ef4952e83df4a288ce4a35",
+    "initials.json": "15d5d1d6e2db1f4dfd17fc50b5a051776fb177f7e738d199673d9e7ef3f0f388",
+    "contexts.npz": "dd9179adbdd8a6807e4ea619c8dd25804ae145778b6cf94bb7f27b3beabe8582"
+  },
+  "artifactHashes": {
+    "model.npz": "7dcec582b6f8ec8fbc62128b25a507ff8b2d4305c1c854e4160631426a53447b",
+    "forecast.npz": "12c3b93a7ceff07efb39a1625b24ad9115f416c29def22b9e78ace13e3fd8832"
+  }
+}

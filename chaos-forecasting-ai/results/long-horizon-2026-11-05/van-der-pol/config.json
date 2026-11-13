@@ -1,0 +1,38 @@
+{
+  "dt": 0.05,
+  "physical_size": 2,
+  "phase_increment": 0.084,
+  "forcing_frequency": 1.68,
+  "long_units": 200,
+  "labels": [
+    "x",
+    "v"
+  ],
+  "seed": 20261105,
+  "reference_initial": [
+    0.1,
+    0.0
+  ],
+  "updates": 1600,
+  "batch_size": 256,
+  "model_seeds": [
+    7,
+    11,
+    23
+  ],
+  "training_trajectories": 32,
+  "training_samples": 64032,
+  "validation_trajectories": 4,
+  "fresh_test_trajectories": 4,
+  "test_origins": 9,
+  "reference_origin_index": 0,
+  "device": "cuda",
+  "torch": "2.6.0+cu124",
+  "hardware": "NVIDIA L4",
+  "prediction": "Free recursive rollout; no truth updates after context.",
+  "long_uncertainty": "No calibration claim beyond the prior 9-unit intervals. Neural members and mean are displayed separately.",
+  "selection": "180-step validation only; all long test outputs are evaluated after fits are fixed.",
+  "sampling_note": "Two long, overlapping origins per fresh trajectory plus one reference; dependent origins, not nine independent trajectories.",
+  "climate_note": "Single-member distribution metrics avoid averaging unrelated chaotic phases.",
+  "numerical_limit": "Nonfinite states or |state/training_std|>1e6 are explicit numerical failures; no clipping into a plausible range."
+}

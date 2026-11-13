@@ -1,0 +1,80 @@
+{
+  "test_origin_index": 0,
+  "sample": 2620,
+  "first_forecast_time": 131.0,
+  "dt": 0.05,
+  "models": {
+    "Ridge (1 trajectory)": {
+      "x": {
+        "coherence_steps": 22,
+        "coherence_time": 1.1,
+        "failure_observed": true
+      },
+      "v": {
+        "coherence_steps": 11,
+        "coherence_time": 0.55,
+        "failure_observed": true
+      }
+    },
+    "Transformer (1 trajectory)": {
+      "x": {
+        "coherence_steps": 180,
+        "coherence_time": 9.0,
+        "failure_observed": false
+      },
+      "v": {
+        "coherence_steps": 93,
+        "coherence_time": 4.65,
+        "failure_observed": true
+      }
+    },
+    "Ridge (8 trajectories)": {
+      "x": {
+        "coherence_steps": 22,
+        "coherence_time": 1.1,
+        "failure_observed": true
+      },
+      "v": {
+        "coherence_steps": 11,
+        "coherence_time": 0.55,
+        "failure_observed": true
+      }
+    },
+    "Transformer (8 trajectories)": {
+      "x": {
+        "coherence_steps": 83,
+        "coherence_time": 4.15,
+        "failure_observed": true
+      },
+      "v": {
+        "coherence_steps": 90,
+        "coherence_time": 4.5,
+        "failure_observed": true
+      }
+    },
+    "Ridge (32 trajectories)": {
+      "x": {
+        "coherence_steps": 22,
+        "coherence_time": 1.1,
+        "failure_observed": true
+      },
+      "v": {
+        "coherence_steps": 11,
+        "coherence_time": 0.55,
+        "failure_observed": true
+      }
+    },
+    "Transformer (32 trajectories)": {
+      "x": {
+        "coherence_steps": 180,
+        "coherence_time": 9.0,
+        "failure_observed": false
+      },
+      "v": {
+        "coherence_steps": 180,
+        "coherence_time": 9.0,
+        "failure_observed": false
+      }
+    }
+  }
+}

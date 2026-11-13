@@ -1,0 +1,816 @@
+{
+  "scope": "Unannotated system: visual agreement is unmeasured.",
+  "unannotated_scope": "Eight dependent origins, four other ICs. No visual labels; visual accuracy is unmeasured.",
+  "selected_rule": "5 memory times; >=80% bad; gaps <=1 memory time.",
+  "approximate_label_tolerance": 0.5,
+  "models": {
+    "Polynomial dynamics": {
+      "visual_main_break_range": null,
+      "visual_main_break_approx": null,
+      "heuristic_onset": 99.05000000000001,
+      "confirmed_at": 104.5,
+      "distance_from_label": null,
+      "within_development_label": null,
+      "other_origin_onsets": [
+        140.9,
+        174.3,
+        59.45,
+        85.60000000000001,
+        99.9,
+        68.65,
+        92.80000000000001,
+        91.15
+      ],
+      "other_origins_median_capped": 91.97500000000001,
+      "other_origins_censored_fraction": 0.0,
+      "other_initial_conditions_paired_onsets": [
+        [
+          140.9,
+          174.3
+        ],
+        [
+          59.45,
+          85.60000000000001
+        ],
+        [
+          99.9,
+          68.65
+        ],
+        [
+          92.80000000000001,
+          91.15
+        ]
+      ],
+      "parameter_sensitivity": [
+        {
+          "window_factor": 0.75,
+          "bad_fraction": 0.7,
+          "recovery_memory_multiplier": 0.5,
+          "onset": 99.05000000000001
+        },
+        {
+          "window_factor": 0.75,
+          "bad_fraction": 0.7,
+          "recovery_memory_multiplier": 1.0,
+          "onset": 99.05000000000001
+        },
+        {
+          "window_factor": 0.75,
+          "bad_fraction": 0.7,
+          "recovery_memory_multiplier": 1.5,
+          "onset": 99.05000000000001
+        },
+        {
+          "window_factor": 0.75,
+          "bad_fraction": 0.8,
+          "recovery_memory_multiplier": 0.5,
+          "onset": 99.05000000000001
+        },
+        {
+          "window_factor": 0.75,
+          "bad_fraction": 0.8,
+          "recovery_memory_multiplier": 1.0,
+          "onset": 99.05000000000001
+        },
+        {
+          "window_factor": 0.75,
+          "bad_fraction": 0.8,
+          "recovery_memory_multiplier": 1.5,
+          "onset": 99.05000000000001
+        },
+        {
+          "window_factor": 0.75,
+          "bad_fraction": 0.9,
+          "recovery_memory_multiplier": 0.5,
+          "onset": 99.05000000000001
+        },
+        {
+          "window_factor": 0.75,
+          "bad_fraction": 0.9,
+          "recovery_memory_multiplier": 1.0,
+          "onset": 99.05000000000001
+        },
+        {
+          "window_factor": 0.75,
+          "bad_fraction": 0.9,
+          "recovery_memory_multiplier": 1.5,
+          "onset": 99.05000000000001
+        },
+        {
+          "window_factor": 1.0,
+          "bad_fraction": 0.7,
+          "recovery_memory_multiplier": 0.5,
+          "onset": 99.05000000000001
+        },
+        {
+          "window_factor": 1.0,
+          "bad_fraction": 0.7,
+          "recovery_memory_multiplier": 1.0,
+          "onset": 99.05000000000001
+        },
+        {
+          "window_factor": 1.0,
+          "bad_fraction": 0.7,
+          "recovery_memory_multiplier": 1.5,
+          "onset": 99.05000000000001
+        },
+        {
+          "window_factor": 1.0,
+          "bad_fraction": 0.8,
+          "recovery_memory_multiplier": 0.5,
+          "onset": 99.05000000000001
+        },
+        {
+          "window_factor": 1.0,
+          "bad_fraction": 0.8,
+          "recovery_memory_multiplier": 1.0,
+          "onset": 99.05000000000001
+        },
+        {
+          "window_factor": 1.0,
+          "bad_fraction": 0.8,
+          "recovery_memory_multiplier": 1.5,
+          "onset": 99.05000000000001
+        },
+        {
+          "window_factor": 1.0,
+          "bad_fraction": 0.9,
+          "recovery_memory_multiplier": 0.5,
+          "onset": 99.05000000000001
+        },
+        {
+          "window_factor": 1.0,
+          "bad_fraction": 0.9,
+          "recovery_memory_multiplier": 1.0,
+          "onset": 99.05000000000001
+        },
+        {
+          "window_factor": 1.0,
+          "bad_fraction": 0.9,
+          "recovery_memory_multiplier": 1.5,
+          "onset": 99.05000000000001
+        },
+        {
+          "window_factor": 1.25,
+          "bad_fraction": 0.7,
+          "recovery_memory_multiplier": 0.5,
+          "onset": 99.05000000000001
+        },
+        {
+          "window_factor": 1.25,
+          "bad_fraction": 0.7,
+          "recovery_memory_multiplier": 1.0,
+          "onset": 99.05000000000001
+        },
+        {
+          "window_factor": 1.25,
+          "bad_fraction": 0.7,
+          "recovery_memory_multiplier": 1.5,
+          "onset": 99.05000000000001
+        },
+        {
+          "window_factor": 1.25,
+          "bad_fraction": 0.8,
+          "recovery_memory_multiplier": 0.5,
+          "onset": 99.05000000000001
+        },
+        {
+          "window_factor": 1.25,
+          "bad_fraction": 0.8,
+          "recovery_memory_multiplier": 1.0,
+          "onset": 99.05000000000001
+        },
+        {
+          "window_factor": 1.25,
+          "bad_fraction": 0.8,
+          "recovery_memory_multiplier": 1.5,
+          "onset": 99.05000000000001
+        },
+        {
+          "window_factor": 1.25,
+          "bad_fraction": 0.9,
+          "recovery_memory_multiplier": 0.5,
+          "onset": 99.05000000000001
+        },
+        {
+          "window_factor": 1.25,
+          "bad_fraction": 0.9,
+          "recovery_memory_multiplier": 1.0,
+          "onset": 99.05000000000001
+        },
+        {
+          "window_factor": 1.25,
+          "bad_fraction": 0.9,
+          "recovery_memory_multiplier": 1.5,
+          "onset": 99.05000000000001
+        }
+      ]
+    },
+    "Transformer": {
+      "visual_main_break_range": null,
+      "visual_main_break_approx": null,
+      "heuristic_onset": 50.0,
+      "confirmed_at": 55.45,
+      "distance_from_label": null,
+      "within_development_label": null,
+      "other_origin_onsets": [
+        39.900000000000006,
+        135.3,
+        41.75,
+        81.35000000000001,
+        42.5,
+        39.300000000000004,
+        41.400000000000006,
+        49.95
+      ],
+      "other_origins_median_capped": 42.125,
+      "other_origins_censored_fraction": 0.0,
+      "other_initial_conditions_paired_onsets": [
+        [
+          39.900000000000006,
+          135.3
+        ],
+        [
+          41.75,
+          81.35000000000001
+        ],
+        [
+          42.5,
+          39.300000000000004
+        ],
+        [
+          41.400000000000006,
+          49.95
+        ]
+      ],
+      "parameter_sensitivity": [
+        {
+          "window_factor": 0.75,
+          "bad_fraction": 0.7,
+          "recovery_memory_multiplier": 0.5,
+          "onset": 50.0
+        },
+        {
+          "window_factor": 0.75,
+          "bad_fraction": 0.7,
+          "recovery_memory_multiplier": 1.0,
+          "onset": 48.85
+        },
+        {
+          "window_factor": 0.75,
+          "bad_fraction": 0.7,
+          "recovery_memory_multiplier": 1.5,
+          "onset": 48.85
+        },
+        {
+          "window_factor": 0.75,
+          "bad_fraction": 0.8,
+          "recovery_memory_multiplier": 0.5,
+          "onset": 50.0
+        },
+        {
+          "window_factor": 0.75,
+          "bad_fraction": 0.8,
+          "recovery_memory_multiplier": 1.0,
+          "onset": 50.0
+        },
+        {
+          "window_factor": 0.75,
+          "bad_fraction": 0.8,
+          "recovery_memory_multiplier": 1.5,
+          "onset": 50.0
+        },
+        {
+          "window_factor": 0.75,
+          "bad_fraction": 0.9,
+          "recovery_memory_multiplier": 0.5,
+          "onset": 50.0
+        },
+        {
+          "window_factor": 0.75,
+          "bad_fraction": 0.9,
+          "recovery_memory_multiplier": 1.0,
+          "onset": 50.0
+        },
+        {
+          "window_factor": 0.75,
+          "bad_fraction": 0.9,
+          "recovery_memory_multiplier": 1.5,
+          "onset": 50.0
+        },
+        {
+          "window_factor": 1.0,
+          "bad_fraction": 0.7,
+          "recovery_memory_multiplier": 0.5,
+          "onset": 50.0
+        },
+        {
+          "window_factor": 1.0,
+          "bad_fraction": 0.7,
+          "recovery_memory_multiplier": 1.0,
+          "onset": 48.85
+        },
+        {
+          "window_factor": 1.0,
+          "bad_fraction": 0.7,
+          "recovery_memory_multiplier": 1.5,
+          "onset": 48.85
+        },
+        {
+          "window_factor": 1.0,
+          "bad_fraction": 0.8,
+          "recovery_memory_multiplier": 0.5,
+          "onset": 50.0
+        },
+        {
+          "window_factor": 1.0,
+          "bad_fraction": 0.8,
+          "recovery_memory_multiplier": 1.0,
+          "onset": 50.0
+        },
+        {
+          "window_factor": 1.0,
+          "bad_fraction": 0.8,
+          "recovery_memory_multiplier": 1.5,
+          "onset": 50.0
+        },
+        {
+          "window_factor": 1.0,
+          "bad_fraction": 0.9,
+          "recovery_memory_multiplier": 0.5,
+          "onset": 50.0
+        },
+        {
+          "window_factor": 1.0,
+          "bad_fraction": 0.9,
+          "recovery_memory_multiplier": 1.0,
+          "onset": 50.0
+        },
+        {
+          "window_factor": 1.0,
+          "bad_fraction": 0.9,
+          "recovery_memory_multiplier": 1.5,
+          "onset": 50.0
+        },
+        {
+          "window_factor": 1.25,
+          "bad_fraction": 0.7,
+          "recovery_memory_multiplier": 0.5,
+          "onset": 50.0
+        },
+        {
+          "window_factor": 1.25,
+          "bad_fraction": 0.7,
+          "recovery_memory_multiplier": 1.0,
+          "onset": 48.85
+        },
+        {
+          "window_factor": 1.25,
+          "bad_fraction": 0.7,
+          "recovery_memory_multiplier": 1.5,
+          "onset": 48.85
+        },
+        {
+          "window_factor": 1.25,
+          "bad_fraction": 0.8,
+          "recovery_memory_multiplier": 0.5,
+          "onset": 50.0
+        },
+        {
+          "window_factor": 1.25,
+          "bad_fraction": 0.8,
+          "recovery_memory_multiplier": 1.0,
+          "onset": 48.85
+        },
+        {
+          "window_factor": 1.25,
+          "bad_fraction": 0.8,
+          "recovery_memory_multiplier": 1.5,
+          "onset": 48.85
+        },
+        {
+          "window_factor": 1.25,
+          "bad_fraction": 0.9,
+          "recovery_memory_multiplier": 0.5,
+          "onset": 50.0
+        },
+        {
+          "window_factor": 1.25,
+          "bad_fraction": 0.9,
+          "recovery_memory_multiplier": 1.0,
+          "onset": 50.0
+        },
+        {
+          "window_factor": 1.25,
+          "bad_fraction": 0.9,
+          "recovery_memory_multiplier": 1.5,
+          "onset": 50.0
+        }
+      ]
+    },
+    "GRU": {
+      "visual_main_break_range": null,
+      "visual_main_break_approx": null,
+      "heuristic_onset": 21.150000000000002,
+      "confirmed_at": 26.6,
+      "distance_from_label": null,
+      "within_development_label": null,
+      "other_origin_onsets": [
+        28.05,
+        95.0,
+        21.75,
+        62.800000000000004,
+        42.25,
+        39.1,
+        22.700000000000003,
+        26.55
+      ],
+      "other_origins_median_capped": 33.575,
+      "other_origins_censored_fraction": 0.0,
+      "other_initial_conditions_paired_onsets": [
+        [
+          28.05,
+          95.0
+        ],
+        [
+          21.75,
+          62.800000000000004
+        ],
+        [
+          42.25,
+          39.1
+        ],
+        [
+          22.700000000000003,
+          26.55
+        ]
+      ],
+      "parameter_sensitivity": [
+        {
+          "window_factor": 0.75,
+          "bad_fraction": 0.7,
+          "recovery_memory_multiplier": 0.5,
+          "onset": 21.150000000000002
+        },
+        {
+          "window_factor": 0.75,
+          "bad_fraction": 0.7,
+          "recovery_memory_multiplier": 1.0,
+          "onset": 21.150000000000002
+        },
+        {
+          "window_factor": 0.75,
+          "bad_fraction": 0.7,
+          "recovery_memory_multiplier": 1.5,
+          "onset": 21.150000000000002
+        },
+        {
+          "window_factor": 0.75,
+          "bad_fraction": 0.8,
+          "recovery_memory_multiplier": 0.5,
+          "onset": 21.150000000000002
+        },
+        {
+          "window_factor": 0.75,
+          "bad_fraction": 0.8,
+          "recovery_memory_multiplier": 1.0,
+          "onset": 21.150000000000002
+        },
+        {
+          "window_factor": 0.75,
+          "bad_fraction": 0.8,
+          "recovery_memory_multiplier": 1.5,
+          "onset": 21.150000000000002
+        },
+        {
+          "window_factor": 0.75,
+          "bad_fraction": 0.9,
+          "recovery_memory_multiplier": 0.5,
+          "onset": 21.150000000000002
+        },
+        {
+          "window_factor": 0.75,
+          "bad_fraction": 0.9,
+          "recovery_memory_multiplier": 1.0,
+          "onset": 21.150000000000002
+        },
+        {
+          "window_factor": 0.75,
+          "bad_fraction": 0.9,
+          "recovery_memory_multiplier": 1.5,
+          "onset": 21.150000000000002
+        },
+        {
+          "window_factor": 1.0,
+          "bad_fraction": 0.7,
+          "recovery_memory_multiplier": 0.5,
+          "onset": 21.150000000000002
+        },
+        {
+          "window_factor": 1.0,
+          "bad_fraction": 0.7,
+          "recovery_memory_multiplier": 1.0,
+          "onset": 21.150000000000002
+        },
+        {
+          "window_factor": 1.0,
+          "bad_fraction": 0.7,
+          "recovery_memory_multiplier": 1.5,
+          "onset": 21.150000000000002
+        },
+        {
+          "window_factor": 1.0,
+          "bad_fraction": 0.8,
+          "recovery_memory_multiplier": 0.5,
+          "onset": 21.150000000000002
+        },
+        {
+          "window_factor": 1.0,
+          "bad_fraction": 0.8,
+          "recovery_memory_multiplier": 1.0,
+          "onset": 21.150000000000002
+        },
+        {
+          "window_factor": 1.0,
+          "bad_fraction": 0.8,
+          "recovery_memory_multiplier": 1.5,
+          "onset": 21.150000000000002
+        },
+        {
+          "window_factor": 1.0,
+          "bad_fraction": 0.9,
+          "recovery_memory_multiplier": 0.5,
+          "onset": 21.150000000000002
+        },
+        {
+          "window_factor": 1.0,
+          "bad_fraction": 0.9,
+          "recovery_memory_multiplier": 1.0,
+          "onset": 21.150000000000002
+        },
+        {
+          "window_factor": 1.0,
+          "bad_fraction": 0.9,
+          "recovery_memory_multiplier": 1.5,
+          "onset": 21.150000000000002
+        },
+        {
+          "window_factor": 1.25,
+          "bad_fraction": 0.7,
+          "recovery_memory_multiplier": 0.5,
+          "onset": 21.150000000000002
+        },
+        {
+          "window_factor": 1.25,
+          "bad_fraction": 0.7,
+          "recovery_memory_multiplier": 1.0,
+          "onset": 21.150000000000002
+        },
+        {
+          "window_factor": 1.25,
+          "bad_fraction": 0.7,
+          "recovery_memory_multiplier": 1.5,
+          "onset": 21.150000000000002
+        },
+        {
+          "window_factor": 1.25,
+          "bad_fraction": 0.8,
+          "recovery_memory_multiplier": 0.5,
+          "onset": 21.150000000000002
+        },
+        {
+          "window_factor": 1.25,
+          "bad_fraction": 0.8,
+          "recovery_memory_multiplier": 1.0,
+          "onset": 21.150000000000002
+        },
+        {
+          "window_factor": 1.25,
+          "bad_fraction": 0.8,
+          "recovery_memory_multiplier": 1.5,
+          "onset": 21.150000000000002
+        },
+        {
+          "window_factor": 1.25,
+          "bad_fraction": 0.9,
+          "recovery_memory_multiplier": 0.5,
+          "onset": 21.150000000000002
+        },
+        {
+          "window_factor": 1.25,
+          "bad_fraction": 0.9,
+          "recovery_memory_multiplier": 1.0,
+          "onset": 21.150000000000002
+        },
+        {
+          "window_factor": 1.25,
+          "bad_fraction": 0.9,
+          "recovery_memory_multiplier": 1.5,
+          "onset": 21.150000000000002
+        }
+      ]
+    },
+    "MLP": {
+      "visual_main_break_range": null,
+      "visual_main_break_approx": null,
+      "heuristic_onset": 45.900000000000006,
+      "confirmed_at": 51.35,
+      "distance_from_label": null,
+      "within_development_label": null,
+      "other_origin_onsets": [
+        28.25,
+        30.0,
+        26.0,
+        25.450000000000003,
+        48.650000000000006,
+        56.300000000000004,
+        23.900000000000002,
+        25.75
+      ],
+      "other_origins_median_capped": 27.125,
+      "other_origins_censored_fraction": 0.0,
+      "other_initial_conditions_paired_onsets": [
+        [
+          28.25,
+          30.0
+        ],
+        [
+          26.0,
+          25.450000000000003
+        ],
+        [
+          48.650000000000006,
+          56.300000000000004
+        ],
+        [
+          23.900000000000002,
+          25.75
+        ]
+      ],
+      "parameter_sensitivity": [
+        {
+          "window_factor": 0.75,
+          "bad_fraction": 0.7,
+          "recovery_memory_multiplier": 0.5,
+          "onset": 45.900000000000006
+        },
+        {
+          "window_factor": 0.75,
+          "bad_fraction": 0.7,
+          "recovery_memory_multiplier": 1.0,
+          "onset": 45.900000000000006
+        },
+        {
+          "window_factor": 0.75,
+          "bad_fraction": 0.7,
+          "recovery_memory_multiplier": 1.5,
+          "onset": 45.900000000000006
+        },
+        {
+          "window_factor": 0.75,
+          "bad_fraction": 0.8,
+          "recovery_memory_multiplier": 0.5,
+          "onset": 45.900000000000006
+        },
+        {
+          "window_factor": 0.75,
+          "bad_fraction": 0.8,
+          "recovery_memory_multiplier": 1.0,
+          "onset": 45.900000000000006
+        },
+        {
+          "window_factor": 0.75,
+          "bad_fraction": 0.8,
+          "recovery_memory_multiplier": 1.5,
+          "onset": 45.900000000000006
+        },
+        {
+          "window_factor": 0.75,
+          "bad_fraction": 0.9,
+          "recovery_memory_multiplier": 0.5,
+          "onset": 45.900000000000006
+        },
+        {
+          "window_factor": 0.75,
+          "bad_fraction": 0.9,
+          "recovery_memory_multiplier": 1.0,
+          "onset": 45.900000000000006
+        },
+        {
+          "window_factor": 0.75,
+          "bad_fraction": 0.9,
+          "recovery_memory_multiplier": 1.5,
+          "onset": 45.900000000000006
+        },
+        {
+          "window_factor": 1.0,
+          "bad_fraction": 0.7,
+          "recovery_memory_multiplier": 0.5,
+          "onset": 45.900000000000006
+        },
+        {
+          "window_factor": 1.0,
+          "bad_fraction": 0.7,
+          "recovery_memory_multiplier": 1.0,
+          "onset": 45.900000000000006
+        },
+        {
+          "window_factor": 1.0,
+          "bad_fraction": 0.7,
+          "recovery_memory_multiplier": 1.5,
+          "onset": 45.900000000000006
+        },
+        {
+          "window_factor": 1.0,
+          "bad_fraction": 0.8,
+          "recovery_memory_multiplier": 0.5,
+          "onset": 45.900000000000006
+        },
+        {
+          "window_factor": 1.0,
+          "bad_fraction": 0.8,
+          "recovery_memory_multiplier": 1.0,
+          "onset": 45.900000000000006
+        },
+        {
+          "window_factor": 1.0,
+          "bad_fraction": 0.8,
+          "recovery_memory_multiplier": 1.5,
+          "onset": 45.900000000000006
+        },
+        {
+          "window_factor": 1.0,
+          "bad_fraction": 0.9,
+          "recovery_memory_multiplier": 0.5,
+          "onset": 45.900000000000006
+        },
+        {
+          "window_factor": 1.0,
+          "bad_fraction": 0.9,
+          "recovery_memory_multiplier": 1.0,
+          "onset": 45.900000000000006
+        },
+        {
+          "window_factor": 1.0,
+          "bad_fraction": 0.9,
+          "recovery_memory_multiplier": 1.5,
+          "onset": 45.900000000000006
+        },
+        {
+          "window_factor": 1.25,
+          "bad_fraction": 0.7,
+          "recovery_memory_multiplier": 0.5,
+          "onset": 45.900000000000006
+        },
+        {
+          "window_factor": 1.25,
+          "bad_fraction": 0.7,
+          "recovery_memory_multiplier": 1.0,
+          "onset": 45.900000000000006
+        },
+        {
+          "window_factor": 1.25,
+          "bad_fraction": 0.7,
+          "recovery_memory_multiplier": 1.5,
+          "onset": 45.900000000000006
+        },
+        {
+          "window_factor": 1.25,
+          "bad_fraction": 0.8,
+          "recovery_memory_multiplier": 0.5,
+          "onset": 45.900000000000006
+        },
+        {
+          "window_factor": 1.25,
+          "bad_fraction": 0.8,
+          "recovery_memory_multiplier": 1.0,
+          "onset": 45.900000000000006
+        },
+        {
+          "window_factor": 1.25,
+          "bad_fraction": 0.8,
+          "recovery_memory_multiplier": 1.5,
+          "onset": 45.900000000000006
+        },
+        {
+          "window_factor": 1.25,
+          "bad_fraction": 0.9,
+          "recovery_memory_multiplier": 0.5,
+          "onset": 45.900000000000006
+        },
+        {
+          "window_factor": 1.25,
+          "bad_fraction": 0.9,
+          "recovery_memory_multiplier": 1.0,
+          "onset": 45.900000000000006
+        },
+        {
+          "window_factor": 1.25,
+          "bad_fraction": 0.9,
+          "recovery_memory_multiplier": 1.5,
+          "onset": 45.900000000000006
+        }
+      ]
+    }
+  }
+}

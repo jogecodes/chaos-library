@@ -1,0 +1,20 @@
+# Shipped scientific arrays and checkpoints are intentionally versioned.
+# Put new experiments here, separate from the published evidence.
+reproductions/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+build/
+dist/
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store

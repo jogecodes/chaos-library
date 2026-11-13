@@ -1,0 +1,118 @@
+{
+  "figure": "figures/long-context-overlays.png",
+  "purpose": "User visual annotations for heuristic development; not independent validation.",
+  "annotations": [
+    {
+      "model": "Ridge",
+      "variable": "x",
+      "user_answer": "from the begining",
+      "break_time": 0.0,
+      "interpretation": "Visually incoherent from the beginning.",
+      "recovery": "not specified"
+    },
+    {
+      "model": "Ridge",
+      "variable": "v",
+      "user_answer": "from the begining. actually remove ridge (its crap)",
+      "break_time": 0.0,
+      "interpretation": "Visually incoherent from the beginning.",
+      "recovery": "not specified"
+    },
+    {
+      "model": "Polynomial dynamics",
+      "variable": "x",
+      "user_answer": "around 11 or 12. same for its v",
+      "break_time_range": [
+        11.0,
+        12.0
+      ],
+      "recovery": "not specified"
+    },
+    {
+      "model": "Polynomial dynamics",
+      "variable": "v",
+      "user_answer": "around 11 or 12. same for its v",
+      "break_time_range": [
+        11.0,
+        12.0
+      ],
+      "recovery": "not specified"
+    },
+    {
+      "model": "Transformer",
+      "variable": "x",
+      "user_answer": "theres a small coherence loss at 6 or 7 but it seems to push forward and its at 10 or 11 when it truly breaks down both for x and v",
+      "minor_loss_time_range": [
+        6.0,
+        7.0
+      ],
+      "break_time_range": [
+        10.0,
+        11.0
+      ],
+      "interpretation": "Minor loss around 6–7, followed by continued tracking; main visual breakdown around 10–11.",
+      "recovery": "Continued tracking after the minor loss; extent of recovery not quantified."
+    },
+    {
+      "model": "Transformer",
+      "variable": "v",
+      "user_answer": "theres a small coherence loss at 6 or 7 but it seems to push forward and its at 10 or 11 when it truly breaks down both for x and v",
+      "minor_loss_time_range": [
+        6.0,
+        7.0
+      ],
+      "break_time_range": [
+        10.0,
+        11.0
+      ],
+      "interpretation": "Minor loss around 6–7, followed by continued tracking; main visual breakdown around 10–11.",
+      "recovery": "Continued tracking after the minor loss; extent of recovery not quantified."
+    },
+    {
+      "model": "GRU",
+      "variable": "x",
+      "user_answer": "theres a small coherence loss at around 2.5 but it seems to push forward. then there is another break at 5 or 6 but it comes back and then it completely loses coherence at around 11, that is when it truly breaks down both for x and v. how do we even represent this???",
+      "minor_loss_time_approx": 2.5,
+      "temporary_break_time_range": [
+        5.0,
+        6.0
+      ],
+      "break_time_approx": 11.0,
+      "recovery": "Continued tracking after the small loss near 2.5; recovery after the break around 5–6. Exact recovery times not specified.",
+      "interpretation": "Several temporary losses precede the main visual breakdown near 11; a first-breach scalar is insufficient."
+    },
+    {
+      "model": "GRU",
+      "variable": "v",
+      "user_answer": "theres a small coherence loss at around 2.5 but it seems to push forward. then there is another break at 5 or 6 but it comes back and then it completely loses coherence at around 11, that is when it truly breaks down both for x and v. how do we even represent this???",
+      "minor_loss_time_approx": 2.5,
+      "temporary_break_time_range": [
+        5.0,
+        6.0
+      ],
+      "break_time_approx": 11.0,
+      "recovery": "Continued tracking after the small loss near 2.5; recovery after the break around 5–6. Exact recovery times not specified.",
+      "interpretation": "Several temporary losses precede the main visual breakdown near 11; a first-breach scalar is insufficient."
+    },
+    {
+      "model": "MLP",
+      "variable": "x",
+      "user_answer": "at 11 both x and v",
+      "break_time_approx": 11.0,
+      "recovery": "not specified",
+      "temporary_mismatches": "not specified"
+    },
+    {
+      "model": "MLP",
+      "variable": "v",
+      "user_answer": "at 11 both x and v",
+      "break_time_approx": 11.0,
+      "recovery": "not specified",
+      "temporary_mismatches": "not specified"
+    }
+  ],
+  "reference_figure": "figures/visual-annotation-reference.png",
+  "heuristic_development_note": "Validation-memory policy: shared confirmation multiplier5 calibrated on four annotated model cases, not forcing cycles. See episode-memory-calibration.json and per-system episode-review-report.json. Original annotations unchanged.",
+  "collection_status": "Complete for x/v of Polynomial dynamics, Transformer, GRU and MLP; removed Ridge annotations retained.",
+  "heuristic_policy_reference": "coherence-settings.json: episode_policy"
+}

@@ -1,0 +1,60 @@
+{
+  "label": "Transformer",
+  "seed": 7,
+  "updates": 3200,
+  "selectedUpdate": 2400,
+  "window": 24,
+  "validationNrmse": 0.2820807657713229,
+  "history": [
+    {
+      "update": 400,
+      "trainingLoss": 0.0001259605778614059,
+      "validationNrmse": 0.7675314818330402
+    },
+    {
+      "update": 800,
+      "trainingLoss": 6.297549407463521e-05,
+      "validationNrmse": 0.47702250740644064
+    },
+    {
+      "update": 1200,
+      "trainingLoss": 5.0820279284380376e-05,
+      "validationNrmse": 0.4791632303394939
+    },
+    {
+      "update": 1600,
+      "trainingLoss": 2.6973264539265074e-05,
+      "validationNrmse": 0.4142885293298463
+    },
+    {
+      "update": 2000,
+      "trainingLoss": 3.05466637655627e-05,
+      "validationNrmse": 0.29303846711769355
+    },
+    {
+      "update": 2400,
+      "trainingLoss": 2.3184724341263063e-05,
+      "validationNrmse": 0.2820807657713229
+    },
+    {
+      "update": 2800,
+      "trainingLoss": 3.045336234208662e-05,
+      "validationNrmse": 0.48235575544109616
+    },
+    {
+      "update": 3200,
+      "trainingLoss": 1.473105021432275e-05,
+      "validationNrmse": 0.4299345646611451
+    }
+  ],
+  "method": "Two attention encoder layers, width 48, four heads, feed-forward width 96, sinusoidal positions. Reads 24 states with sine/cosine angles; predicts full-state increments; four-step recursive loss; AdamW, batch 256; checkpoint selected on separate 180-step validation forecasts.",
+  "sourceHashes": {
+    "data.npz": "1d7bb0e1192a7c9f5b6cd6cdd6e0f5a7b7f30f2fa8cffa636af6048b0336b694",
+    "initials.json": "82e2a13bfdbb24843f191e815194a7103492495731f69348d8377ddeffdecd94",
+    "contexts.npz": "4bdeb03d38a7c8bc2793f6cfc33131a6aa9b4ee7bb1060f2f82e907ccfa53097"
+  },
+  "artifactHashes": {
+    "model.pt": "1e1bc8cb82fa2a127ab6c72730761b92443a5b641c61e1b0ade279eefd8efbfa",
+    "forecast.npz": "5dc7a7433f196f6f7e7e52d3e153757ff8d7624c047ad688310ea4b781166bdd"
+  }
+}

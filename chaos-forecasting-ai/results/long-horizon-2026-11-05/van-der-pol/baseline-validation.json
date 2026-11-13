@@ -1,0 +1,16 @@
+{
+  "ridge": {
+    "source": "chaos-forecasting-ai/results/data-scaling-2026-11-05/metrics.json"
+  },
+  "polynomial": [
+    {
+      "degree": 2,
+      "validation_normalized_mse": 1.2040604642942132
+    },
+    {
+      "degree": 3,
+      "validation_normalized_mse": 0.057633195171114995
+    }
+  ],
+  "polynomial_degree": 3
+}

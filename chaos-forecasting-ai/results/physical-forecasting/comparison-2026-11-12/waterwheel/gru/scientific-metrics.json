@@ -1,0 +1,44 @@
+{
+  "forecastSha256": "bdb68c995cef1151a2f018a75bb916a183f8bbac9c1027ee8374cde14519f886",
+  "runs": [
+    {
+      "index": 1,
+      "samples": 2251,
+      "duration": 45.0,
+      "allStatesFinite": true,
+      "firstNonfiniteTime": null,
+      "nonfiniteValues": 0,
+      "firstNegativeBucketMassTime": null,
+      "earlyMotionRmse": 5.954820239956721,
+      "fullMotionRmse": 2.93559170753754,
+      "earlyNrmse": 0.7106008222870627,
+      "fullNrmse": 0.4058402411076616
+    },
+    {
+      "index": 2,
+      "samples": 2251,
+      "duration": 45.0,
+      "allStatesFinite": true,
+      "firstNonfiniteTime": null,
+      "nonfiniteValues": 0,
+      "firstNegativeBucketMassTime": null,
+      "earlyMotionRmse": 0.01635880310401858,
+      "fullMotionRmse": 2.0857273377371097,
+      "earlyNrmse": 0.003633222635359645,
+      "fullNrmse": 0.29305166497840973
+    },
+    {
+      "index": 3,
+      "samples": 2251,
+      "duration": 45.0,
+      "allStatesFinite": true,
+      "firstNonfiniteTime": null,
+      "nonfiniteValues": 0,
+      "firstNegativeBucketMassTime": null,
+      "earlyMotionRmse": 0.028480382680277035,
+      "fullMotionRmse": 2.1191415024696556,
+      "earlyNrmse": 0.005822486114981824,
+      "fullNrmse": 0.28827595410894014
+    }
+  ]
+}

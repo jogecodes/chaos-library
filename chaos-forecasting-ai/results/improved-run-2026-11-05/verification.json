@@ -1,0 +1,9 @@
+{
+  "forecast_models_replayed": 6,
+  "pinn_checkpoints_replayed": 3,
+  "tests_passed": 31,
+  "ruff": "passed",
+  "diff_check": "passed",
+  "numerical_artifacts": "finite",
+  "archives": "CRC checks passed"
+}

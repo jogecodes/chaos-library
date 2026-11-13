@@ -1,0 +1,6 @@
+{
+  "transformer_training_loss": 0.09090827405452728,
+  "transformer_position_rmse": 2.280125886363791,
+  "pinn_training_loss": 2.2228875160217285,
+  "device": "cpu"
+}

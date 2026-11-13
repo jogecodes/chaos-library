@@ -1,0 +1,47 @@
+{
+  "device": "cuda",
+  "device_name": "NVIDIA L4",
+  "torch": "2.6.0+cu124",
+  "numpy": "2.2.6",
+  "python": "3.10.12",
+  "seeds": [
+    7,
+    11,
+    23
+  ],
+  "maximum_transformer_epochs": 100,
+  "pinn_epochs": 4000,
+  "git_head": "fe86e6afad96126dcfaba221268aa071080904cc",
+  "train_range": [
+    0,
+    2000
+  ],
+  "inner_fit_range": [
+    0,
+    1600
+  ],
+  "inner_validation_range": [
+    1600,
+    2000
+  ],
+  "calibration_range": [
+    2000,
+    2600
+  ],
+  "test_range": [
+    2600,
+    3601
+  ],
+  "horizon": 180,
+  "dt": 0.05,
+  "nominal_coverage": 0.9,
+  "caveat": "One deterministic trajectory; rolling windows are dependent. Empirical conformal intervals have no asserted exchangeability guarantee.",
+  "event": "position x > 0",
+  "interval_states": [
+    "x",
+    "v"
+  ],
+  "phase": "Known forcing phase: improved Transformer and polynomial dynamics",
+  "pinn": "Separate reconstruction experiment, not a forecasting competitor",
+  "pinn_selection": "101 fitting labels; 100 checkpoint-validation labels; 200 interpolation-test labels at t<=20. Extrapolation t=20..25 is held out."
+}

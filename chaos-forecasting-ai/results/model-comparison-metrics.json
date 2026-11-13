@@ -1,0 +1,44 @@
+[
+  {
+    "model": "Persistence",
+    "rmse_position": 2.1554409413641555,
+    "mae_position": 1.7705323359031089,
+    "final_rmse_position": 1.3258166001149339,
+    "position_correlation": -1.521282572306197e-17,
+    "coherence_length": 2,
+    "coverage": 0.5055555555555555,
+    "nominal_coverage": 0.9,
+    "calibration_error": 0.3944444444444445,
+    "brier_score": 0.27263276555555555,
+    "mean_log_score": -0.7408345326492073,
+    "mean_interval_width": 4.7133999101307245
+  },
+  {
+    "model": "Ridge",
+    "rmse_position": 1.2725476706342016,
+    "mae_position": 1.1260666033697038,
+    "final_rmse_position": 1.1717985912841056,
+    "position_correlation": 0.369202264557589,
+    "coherence_length": 20,
+    "coverage": 0.9722222222222222,
+    "nominal_coverage": 0.9,
+    "calibration_error": 0.07222222222222219,
+    "brier_score": 0.12693943222222243,
+    "mean_log_score": -0.43938545982332267,
+    "mean_interval_width": 4.7133999101307245
+  },
+  {
+    "model": "Transformer",
+    "rmse_position": 2.199138283065518,
+    "mae_position": 1.8021367455854127,
+    "final_rmse_position": 2.757102005447101,
+    "position_correlation": 0.37141427016479106,
+    "coherence_length": 15,
+    "coverage": 0.6555555555555556,
+    "nominal_coverage": 0.9,
+    "calibration_error": 0.24444444444444446,
+    "brier_score": 0.22580276555555553,
+    "mean_log_score": -0.6439401878123157,
+    "mean_interval_width": 4.7133999101307245
+  }
+]

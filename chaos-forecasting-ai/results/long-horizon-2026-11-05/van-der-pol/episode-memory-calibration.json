@@ -1,0 +1,189 @@
+{
+  "inputs": "One annotated Van der Pol reference trajectory; four model cases, x/v not independent.",
+  "time_scale": "Median validation first 1/e autocorrelation crossing; no forcing input.",
+  "memory_time": 0.75,
+  "recovery_multiplier_fixed": 1.0,
+  "bad_fraction_fixed": 0.8,
+  "approximate_label_interval_half_width": 0.5,
+  "selection": "Minimum mean distance to label intervals; smallest multiplier wins ties.",
+  "trials": [
+    {
+      "confirmation_multiplier": 2.0,
+      "mean_interval_error": 3.0,
+      "models": {
+        "Polynomial dynamics": {
+          "onset": 11.100000000000001,
+          "distance_from_label_interval": 0
+        },
+        "Transformer": {
+          "onset": 6.1000000000000005,
+          "distance_from_label_interval": 3.8999999999999995
+        },
+        "GRU": {
+          "onset": 2.4000000000000004,
+          "distance_from_label_interval": 8.1
+        },
+        "MLP": {
+          "onset": 11.05,
+          "distance_from_label_interval": 0
+        }
+      }
+    },
+    {
+      "confirmation_multiplier": 3.0,
+      "mean_interval_error": 2.025,
+      "models": {
+        "Polynomial dynamics": {
+          "onset": 11.100000000000001,
+          "distance_from_label_interval": 0
+        },
+        "Transformer": {
+          "onset": 10.8,
+          "distance_from_label_interval": 0
+        },
+        "GRU": {
+          "onset": 2.4000000000000004,
+          "distance_from_label_interval": 8.1
+        },
+        "MLP": {
+          "onset": 11.05,
+          "distance_from_label_interval": 0
+        }
+      }
+    },
+    {
+      "confirmation_multiplier": 4.0,
+      "mean_interval_error": 2.025,
+      "models": {
+        "Polynomial dynamics": {
+          "onset": 11.100000000000001,
+          "distance_from_label_interval": 0
+        },
+        "Transformer": {
+          "onset": 10.8,
+          "distance_from_label_interval": 0
+        },
+        "GRU": {
+          "onset": 2.4000000000000004,
+          "distance_from_label_interval": 8.1
+        },
+        "MLP": {
+          "onset": 11.05,
+          "distance_from_label_interval": 0
+        }
+      }
+    },
+    {
+      "confirmation_multiplier": 5.0,
+      "mean_interval_error": 0.0,
+      "models": {
+        "Polynomial dynamics": {
+          "onset": 11.100000000000001,
+          "distance_from_label_interval": 0
+        },
+        "Transformer": {
+          "onset": 10.8,
+          "distance_from_label_interval": 0
+        },
+        "GRU": {
+          "onset": 10.950000000000001,
+          "distance_from_label_interval": 0
+        },
+        "MLP": {
+          "onset": 11.05,
+          "distance_from_label_interval": 0
+        }
+      }
+    },
+    {
+      "confirmation_multiplier": 6.0,
+      "mean_interval_error": 5.550000000000001,
+      "models": {
+        "Polynomial dynamics": {
+          "onset": 11.100000000000001,
+          "distance_from_label_interval": 0
+        },
+        "Transformer": {
+          "onset": 10.8,
+          "distance_from_label_interval": 0
+        },
+        "GRU": {
+          "onset": 10.950000000000001,
+          "distance_from_label_interval": 0
+        },
+        "MLP": {
+          "onset": 33.7,
+          "distance_from_label_interval": 22.200000000000003
+        }
+      }
+    },
+    {
+      "confirmation_multiplier": 7.0,
+      "mean_interval_error": 5.550000000000001,
+      "models": {
+        "Polynomial dynamics": {
+          "onset": 11.100000000000001,
+          "distance_from_label_interval": 0
+        },
+        "Transformer": {
+          "onset": 10.8,
+          "distance_from_label_interval": 0
+        },
+        "GRU": {
+          "onset": 10.950000000000001,
+          "distance_from_label_interval": 0
+        },
+        "MLP": {
+          "onset": 33.7,
+          "distance_from_label_interval": 22.200000000000003
+        }
+      }
+    },
+    {
+      "confirmation_multiplier": 8.0,
+      "mean_interval_error": 5.550000000000001,
+      "models": {
+        "Polynomial dynamics": {
+          "onset": 11.100000000000001,
+          "distance_from_label_interval": 0
+        },
+        "Transformer": {
+          "onset": 10.8,
+          "distance_from_label_interval": 0
+        },
+        "GRU": {
+          "onset": 10.950000000000001,
+          "distance_from_label_interval": 0
+        },
+        "MLP": {
+          "onset": 33.7,
+          "distance_from_label_interval": 22.200000000000003
+        }
+      }
+    }
+  ],
+  "selected_confirmation_multiplier": 5.0,
+  "model_withholding_stress_check": {
+    "Polynomial dynamics": {
+      "selected_without_model": 5.0,
+      "onset": 11.100000000000001,
+      "distance_from_label_interval": 0
+    },
+    "Transformer": {
+      "selected_without_model": 5.0,
+      "onset": 10.8,
+      "distance_from_label_interval": 0
+    },
+    "GRU": {
+      "selected_without_model": 3.0,
+      "onset": 2.4000000000000004,
+      "distance_from_label_interval": 8.1
+    },
+    "MLP": {
+      "selected_without_model": 5.0,
+      "onset": 11.05,
+      "distance_from_label_interval": 0
+    }
+  },
+  "limitations": "Small development set; same-trajectory model withholding is not independent trajectory validation."
+}
